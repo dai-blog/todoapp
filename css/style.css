@@ -98,4 +98,8 @@ form:nth-child(n+2) {
   form h1 {
     opacity: 0;
   }
+
+  button {
+    display: inline-block;
+  }
 }
