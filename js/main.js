@@ -1,5 +1,6 @@
 'use strict';
 
+
 // 低難易度の変数
 const text = document.getElementById('text');
 const btn = document.getElementById('submit-btn');
@@ -16,17 +17,18 @@ const btn3 = document.getElementById('submit-btn3');
 const ul3 = document.getElementById('contents');
 
 // 関数 リストに追加 削除処理
-function listApp(button, listchild, list) {
+function listApp(button, listChild, list) {
+
   button.addEventListener('click', (e) => {
     e.preventDefault();
-    if (listchild.value === '') {
+    if (listChild.value === '') {
       return;
     }
     const li = document.createElement('li');
-    li.textContent = listchild.value;
+    li.textContent = listChild.value;
     list.appendChild(li);
-    listchild.value = '';
-    listchild.focus();
+    listChild.value = '';
+    listChild.focus();
 
     const end = document.createElement('button');
     end.textContent = '削除';
