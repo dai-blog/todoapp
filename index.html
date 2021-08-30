@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoリスト</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <h1>Todoリスト(PC版）（未データベース）</h1>
+  </header>
+  <!-- ヘッダーここまで -->
+
+  <!-- Todoリスト部分 -->
+  <div>
+    <!-- 低難易度 -->
+    <form>
+      <h1>難易度【低】</h1>
+      <input class="text" type="text" id="text" placeholder="What do you do?">
+      <input class="btn" value="追加" type="submit" id="submit-btn">
+      <ul>
+      </ul>
+    </form>
+    <!-- 低難易度 -->
+  
+    <!-- 中難易度 -->
+    <form>
+      <h1>難易度【中】</h1>
+      <input class="text" type="text" id="text2" placeholder="What do you do?">
+      <input class="btn" value="追加" type="submit" id="submit-btn2">
+      <ul id="content">
+      </ul>
+    </form>
+    <!-- 中難易度 -->
+  
+    <!-- 高難易度 -->
+    <form>
+      <h1>難易度【高】</h1>
+      <input class="text" type="text" id="text3" placeholder="What do you do?">
+      <input class="btn" value="追加" type="submit" id="submit-btn3">
+      <ul id="contents">
+      </ul>
+    </form>
+    <!-- 高難易度 -->
+    
+</div>
+<!-- Todoリスト部分 -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
