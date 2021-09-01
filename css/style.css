@@ -28,6 +28,7 @@ button {
   color: rgb(12, 12, 80);
   background-color: aliceblue;
   display: none;
+  cursor: pointer;
 }
 
 li:hover button {
@@ -102,4 +103,10 @@ form:nth-child(n+2) {
   button {
     display: inline-block;
   }
+}
+
+
+form:nth-child(n + 2)  {
+  pointer-events: none;
+
 }
